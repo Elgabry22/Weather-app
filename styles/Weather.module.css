@@ -1,0 +1,316 @@
+.main{
+    
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(16, 44, 156, 0.57),rgba(16, 28, 158, 0.367)),url(../public/Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insertdata{
+    margin-top: 2%;
+    width: 20rem;
+}
+
+.insertdata input{
+    width: 100%;
+    border-radius: 3rem;
+    border: none;
+    outline: whitesmoke;
+    padding-left: 10%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.mainbox{
+    width: 65%;
+    height: 80%;
+    box-shadow: 2px 5px 8px -1px #18355380;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 3%;
+}
+
+.abovepart{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.imgdiv{
+    padding:1% 0% 0% 5%;
+}
+
+
+.abovepart img{
+    width: 280px;
+}
+
+.cityinfo{
+   padding-right: 2%;
+   padding: 5% 10% 0% 0%;
+  }
+
+.cityinfo p{
+    color: beige;
+    font-size: 35px;
+    position: relative;
+    top: 8%;
+}
+
+.cityinfo h2{
+    font-size: 80px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.fouboxs{
+    height: auto;
+    margin: 0px 0px 1.8% 0px;
+}
+
+.fouboxs div{
+    box-shadow: 2px 5px 8px -1px #1054b480;
+    height: 95%;
+    width: 23%;
+    display: inline-block;
+    margin: 0px 0px 0% 1.6%;
+    text-align: center;
+    border-radius: 7%;
+}
+
+.fouboxs p{
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.fouboxs div img{
+    width: 100px;
+}
+
+.fouboxs h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.temp{
+    position: absolute;
+    color: beige;
+    font-size: 35px;
+    font-family: 700;
+    left: 40%;
+    top: 35%;
+}
+
+
+@media screen and (max-width:1300px){
+
+    .mainbox{
+        width: 80%;
+        height: 85%;
+    }
+    .cityinfo{
+        padding: 5% 5% 0% 0%; 
+    }
+    
+}
+
+
+@media screen and (max-width:1200px){
+
+    .mainbox{
+        width: 90%;
+        height: 85%;
+    }
+    .cityinfo{
+        padding: 6% 4% 0% 0%; 
+    }
+
+    .cityinfo h2{
+        font-size: 100px;
+    }
+
+    .temp{
+        top: 45%;
+        left: 40%;
+    }
+    
+}
+
+
+@media screen and (max-width:950px){
+
+   
+    .cityinfo h2{
+        font-size: 90px;
+    }
+
+    .fouboxs h6{
+        font-size: 16px;
+    }
+    
+}
+
+
+@media screen and (max-width:840px){
+
+    .cityinfo h2{
+        font-size: 70px;
+    }
+
+}
+
+
+@media screen and (max-width:800px){
+
+    .mainbox{
+        width: 90%;
+        height: 90%;
+    }
+
+}
+
+
+
+@media screen and (max-width:730px){
+
+    .mainbox{
+        width: 98%;
+        height: 92%;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
+
+
+@media screen and (max-width:670px){
+
+    .fouboxs{
+      
+        height: auto;
+    } 
+
+    .fouboxs div{
+     height: 47%;
+     width: 45%;
+     margin: 1% 0px 0% 3%;
+     }
+
+     .fouboxs div img{
+        width: 80px;
+     }
+
+     .cityinfo{
+       
+        padding: 10% 5% 0% 0%;
+       }
+      
+     .cityinfo h2{
+        font-size: 60px;
+     }
+     .cityinfo p{
+        font-size: 30px;
+        top: 1%;
+     }
+
+     
+    .temp{
+        
+        left: 50%;
+    }
+}
+
+
+@media screen and (max-width:620px){
+    .abovepart{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imgdiv img{
+        width: 230px;
+    }
+
+    .imgdiv{
+        padding: auto;
+    }
+
+    .temp{
+        top: 30%;
+        left: 15%;
+        font-size: 30px;
+    }
+
+    .cityinfo{
+        padding-right: 2%;
+        padding: 0% 0% 0% 5%;
+        
+    }
+
+    .cityinfo h2{
+        font-size: 50px;
+        position: relative;
+        bottom: 10%;
+    }
+
+}
+
+
+@media screen and (max-width:620px){
+    .temp{
+        top: 35%;
+        left: 10%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height:601px){
+    .temp{
+        top: 45%;
+        left: 37%;
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-height:668px){
+
+
+    .fouboxs h6{
+         font-size: 10px;
+    }
+
+    .fouboxs img{
+         width: 10px;
+    }   
+
+    .fouboxs p{
+        font-size: 10px; 
+        position: relative;
+        top: 10px;  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
